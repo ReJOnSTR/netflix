@@ -1,0 +1,104 @@
+.ana-div-users {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.background-users {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  background-color: #222222;
+}
+
+.users-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  color: #fff;
+}
+
+.users-container h1 {
+  margin-bottom: 5vh;
+}
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile {
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.add-profile {
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.add-profile img {
+  width: 15vh;
+  height: 15vh;
+}
+
+.add-image {
+  fill: #222222;
+}
+.image-selection {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.selectable-image {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid transparent;
+}
+
+.selectable-image.selected {
+  border: 2px solid #007bff;
+}
+
+.modal-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+  border-color: #444;
+}
+
+.modal-header .close {
+  color: #fff;
+}
+
+.modal-footer .btn-secondary,
+.modal-footer .btn-danger {
+  background-color: #555;
+  border-color: #555;
+}
