@@ -5,8 +5,11 @@ import { IoNotificationsSharp } from "react-icons/io5";
 const HeaderWrapper = styled.header`
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(0, 0, 0);
   padding: 1vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
 `;
 
 const Nav = styled.nav`
